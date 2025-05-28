@@ -1,0 +1,31 @@
+.table {
+  width: 800px;
+  border-collapse: collapse;
+  text-transform: capitalize;
+  background-color: white;
+  text-align: center;
+}
+
+.thead {
+  background-color: #444444;
+  text-transform: uppercase;
+}
+
+.td {
+  padding: 10px 30px;
+
+  border: 1px solid rgb(0, 0, 0);
+  color: black;
+}
+
+.th {
+  padding: 10px 30px;
+  border: 1px solid rgb(0, 0, 0);
+  color: #fff;
+}
+
+.tr {
+  &:nth-child(even) {
+    background-color: grey;
+  }
+}
